@@ -1,0 +1,1426 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.cutomcheck {
+    display: block;
+    position: relative;
+
+}
+
+.greenbutton {
+    background-color: #77bb06 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxshadowgernet {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.cutomcheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+.backbluelight {
+    background-color: rgb(246 247 251);
+}
+
+
+.colorskyblue {
+    background-color: #dff0ff;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.backgroundlightblue {
+    background-color: #f4f8fb;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.cutomcheck input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.cutomcheck input:checked~.checkmark:after {
+    display: block;
+}
+
+
+
+.font500 {
+    font-weight: 500;
+}
+
+
+.backblue {
+    background-color: #154259;
+}
+
+.font15px {
+    font-size: 15px;
+}
+
+.font13 {
+    font-size: 14px;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+.minifont {
+    font-size: 11px;
+}
+
+
+.checktblefeild,
+.contractsection {
+    overflow: auto;
+}
+
+.tableindex::-webkit-scrollbar {
+    width: 1px;
+}
+
+.contractsectiontable {
+    width: 1800px;
+}
+
+.tableindex {
+    width: 2050px;
+}
+
+.colorcc {
+    color: #ccc;
+}
+
+
+.colorblue {
+    color: #39518f;
+}
+
+
+.fontapex {
+    color: #39518f;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+.fontprice {
+    color: black;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.fontgray {
+    font-size: 12px;
+    font-weight: 500;
+    color: #bbb;
+}
+
+
+
+.roundedbox {
+    border-radius: 7px;
+}
+
+
+.caller {
+    color: #1b2d38;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+
+.sectionbackground {
+    background-color: #edf0f4;
+    width: 97%;
+    margin-left: 3%;
+}
+
+
+.profilenameimg {
+    width: 42px;
+}
+
+.crownbox {
+    border-radius: 10px;
+    background-color: #e6e9f1;
+    padding: 5px 7px;
+    text-align: center;
+}
+
+.crownimg {
+    width: 15px;
+
+}
+
+.widthplusicon {
+    width: 9px;
+}
+
+.usernameimg {
+    width: 37px;
+}
+
+
+.cell1 {
+    width: 15%;
+
+}
+
+.cell2,
+.cell3,
+.cell4,
+.cell6 {
+    width: 6%;
+}
+
+.cell5 {
+    width: 6%;
+}
+
+td {
+    background-color: white;
+}
+
+.tabicon {
+    width: 12px;
+}
+
+.tbicon {
+    width: 10px;
+}
+
+.boxtable {
+    padding: 10px;
+    width: 10%;
+    background-color: #ffffff;
+}
+
+.arrowdown {
+    width: 35%;
+
+}
+
+
+.bulkbox {
+    width: 10%;
+}
+
+.bulkbox .arrowdown {
+    width: 15%;
+}
+
+
+.downlineaarow {
+    width: 15px;
+}
+
+.arrowdownpick {
+    width: 10px;
+}
+
+.addbutton {
+    font-weight: 500;
+    font-size: 12px;
+    border: none;
+    background-color: #1f4363;
+    color: white;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+
+.formaddcompany {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: white;
+    width: 30%;
+    height: 100vh;
+    display: none;
+    box-shadow: 0 2px 5px #ccc;
+
+}
+
+.formaddcompany label {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.formaddcompany input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formaddcompany h5 {
+    color: #39518f;
+}
+
+.customtableicon {
+
+    width: 11px;
+
+}
+
+.customizefields {
+    border: 1px solid #ccc;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #39518f;
+}
+
+.basicinfo {
+    padding: 20px;
+    background-color: #f4f8fb;
+    font-weight: 500;
+}
+
+.forminputs {
+    overflow-y: auto;
+    height: 50vh;
+}
+
+.crosss {
+    width: 13px;
+    rotate: 41deg;
+    cursor: pointer;
+}
+
+.cl {
+    border: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #DDd;
+    font-family: 500;
+    width: 25%;
+}
+
+.sv {
+    background-color: #1f4363;
+    border: none;
+    padding: 5px;
+    font-family: 500;
+    width: 25%;
+    color: white;
+}
+
+.saveclearbutton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.forminputs::-webkit-scrollbar {
+    width: 7px;
+
+}
+
+.forminputs::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+.tabmy {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    padding: 10px 20px;
+    background-color: #edf0f4;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tabb {
+    cursor: pointer;
+}
+
+.rightbar {
+    position: fixed;
+    background-color: #12344d;
+    z-index: 1000;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    
+}
+
+
+.iconbar {
+    list-style: none;
+    padding-left: 0;
+}
+
+.iconbar li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.iconbar li img {
+    width: 20px;
+    transition: all 0.1s ease;
+}
+
+.orangeiconleft {
+    width: 30px;
+}
+
+.iconbar li img:hover {
+    transform: rotate(50deg);
+}
+
+
+.circleredius {
+    border-radius: 30px;
+}
+
+.detailsStart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.leftsideinnerbar {
+    background-color: white;
+}
+
+.starticons {
+    width: 60px;
+}
+
+.contactinfoul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.contactinfoul li {
+    /* margin-bottom: 20px; */
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.contactinfoul li img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+
+.memebrs {
+    border: 1px solid;
+    font-size: 12px;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.memebrs:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.tablecontactteamTh {
+    width: 30%;
+}
+
+.Contract .tablecontactteamTh {
+    width: 26%;
+}
+
+.lowwid {
+    width: 15%;
+}
+
+.rigthbarsection {
+    background-color: #ebeff3;
+}
+
+/* .headboderth{
+    background-color: #cfd7df;
+} */
+
+.mediatabs {
+    gap: 10px;
+}
+
+.mediatabs .memebrs {
+    padding: 4px 7px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.mediatabs .memebrs p {
+    font-size: 11px;
+}
+
+.boxox {
+    width: 90%;
+}
+
+.noteadd {
+    border: none;
+    padding: 20px;
+    background-color: rgba(225, 225, 163, 0.265);
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.contentboxboxox {
+    width: 40%;
+}
+
+
+
+.addbutton2 {
+    gap: 10px;
+}
+
+.tabmewidth {
+    width: 35%;
+}
+
+.stripcolor {
+    background-color: #f4f8fb;
+}
+
+.activeinsideofleftbar {
+    box-shadow: 0 2px 4px #ccc;
+    border-right: 4px solid;
+    border-color: blue;
+
+}
+
+.contactinfoul li:hover {
+    box-shadow: 0 2px 4px #ccc;
+    border-right: 4px solid;
+    border-color: blue;
+
+}
+
+.centerting {
+    height: 80vh;
+}
+
+.overflowtorightactivitie {
+    height: 92vh;
+    overflow: auto;
+}
+
+.overflowtorightactivitie::-webkit-scrollbar {
+    width: 7px;
+}
+
+.license {
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 8px 10px;
+    outline: none;
+    font-weight: 500;
+}
+
+.createrole {
+    background-color: #12344d;
+    padding: 8px 12px;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: white;
+}
+
+
+.boxhalf {
+    width: 80%;
+    margin: auto;
+}
+
+.learmore {
+    border: none;
+    background-color: #e8f5fb;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    color: #2196F3;
+    font-weight: 500;
+}
+
+.musdardcolor {
+    background-color: #fbf2e3;
+}
+
+.mliceneses {
+    border: 1px solid #ccc;
+    background-color: #fdfdfd;
+    font-size: 12px;
+    padding: 8px 10px;
+    font-weight: 500;
+}
+
+.userbox {
+    padding: 6px;
+    background: #e1f0cd;
+}
+
+.userbox1 {
+    padding: 6px;
+    background-color: #dff0ff;
+}
+
+.userbox2 {
+    padding: 6px;
+    background-color: #e6ddfc;
+}
+
+.userbox3 {
+    padding: 6px;
+    background-color: #fff0e2;
+}
+
+.userbox4 {
+    padding: 6px;
+    background-color: #c1e7eb;
+}
+
+
+.whiteuser {
+    padding: 8px 10px;
+    font-size: 12px;
+}
+
+.tagsitems {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #e6ddfc;
+    text-align: center;
+}
+
+.tagsitems1 {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #c1e7eb;
+    text-align: center;
+}
+
+.tagsitems2 {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff0e2;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.tagsitems3 {
+    padding: 5px;
+    border-radius: 10px;
+    background: #e1f0cd;
+    text-align: center;
+
+    font-weight: 500;
+}
+
+.trash {
+    padding: 7px;
+}
+
+.minusmargintrash {
+    margin-top: -8px;
+}
+
+.widthing {
+    width: 95%;
+    margin-left: 55px;
+}
+
+.replybox {
+    outline: none;
+    padding: 4px 12px;
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.formview {
+    width: 90%;
+    margin: auto;
+}
+
+.noneof {
+    border: none;
+    outline: none;
+    background-color: #bef8ec;
+    padding: 7px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.leftbaractive {
+    filter: invert(1);
+    width: 25px !important;
+
+}
+
+
+.movestrip {
+    padding: 10px 15px;
+    border-bottom: 1px solid #Ccc;
+
+}
+
+.cutomizetable {
+    position: absolute;
+    background: white;
+    width: 255px;
+    top: 40px;
+    box-shadow: 0 2px 5px #ccc;
+    height: 0;
+    opacity: 0;
+    overflow-y: auto;
+    transition: all 0.4s ease;
+    z-index: 22;
+    left: -79px;
+}
+
+.buttontoaction {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.cutomizetableinner {
+    height: 200px;
+    overflow: auto;
+}
+
+.fornsection {
+    background-color: #004b8f;
+}
+
+.bannerform {
+    width: 60%;
+
+}
+
+.formflight {
+    width: 50%;
+}
+
+.alltabscom {
+    display: none
+}
+
+.activecom {
+    display: block;
+}
+
+.iconmo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 3%;
+
+}
+
+.posi {
+    position: relative;
+}
+
+.selectordiv {
+    width: 45%;
+    font-size: 12px;
+}
+
+.iconmo:hover~.viewcard {
+    display: block;
+}
+
+.viewcard {
+    position: absolute;
+    background: white;
+    padding: 10px 10px;
+    right: 0;
+    box-shadow: 0 2px 4px #CCC;
+    width: 40%;
+    display: none;
+}
+
+.viewcard ul li {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* element.style {
+    padding: 4px 13px;
+    background: #03A9F4;
+    color: white;
+    width: 3px;
+    border-radius: 20px;
+    font-size: 13px; */
+
+
+
+
+.indivicom {
+    padding: 10px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 100%;
+    margin-top: 6px;
+
+}
+
+
+#addtext,#addtext2{
+    display: none;
+
+}
+
+#comindi,
+#comindi1,
+#comindi2,
+#comindi3 {
+    display: none;
+}
+
+body::placeholder {
+    font-size: 12px;
+}
+
+
+
+
+.uploadforminput{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    opacity: 0;
+}
+
+
+.gapingdrop{
+    gap: 20px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 7px;
+    width: 66%;
+    position: relative;
+    font-size: 15px;
+}
+
+.tooltiP{
+    padding: 5px;
+    background: #f1f1f1;
+}
+
+.arrowdownarrow{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+
+.imanu{
+    padding: 17px 10px;
+    color: blue;
+    box-shadow: 0 2px 5px #ccc;
+    width: 58px;
+    text-align: center;
+
+}
+
+.boxshaowside{
+    box-shadow: 0 3px 5px #c6c2c2;
+}
+
+.infotooltip {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color: green;
+    display: none;
+    width: 40%;
+    text-align: right;
+    padding-right: 20px;
+    width: 84%;
+    text-align: right;
+    padding-right: 20px;
+    background: white;
+
+}
+
+
+.threedots:hover~.infotooltip{
+          display: block;
+
+}
+
+.infotooltip:hover{
+        display: block;
+}
+
+
+.iconbar li:hover  .labelboxing{
+    display: block;
+}
+.labelboxing{
+    position: absolute;
+    top: 0px;
+    left: 59px;
+    background: #12344d;
+    color: white;
+    padding: 6px 29px;
+    border-radius: 22px;
+    font-size: 10px;
+    box-shadow: 0 2px 4px #3574b152;
+    display: none;
+}
+
+
+
+.iconbar li:hover  .mainlistProject{
+    display: block;
+}
+.mainlistProject{
+    position: absolute;
+    top: 0px;
+    left: 59px;
+    display: none;
+}
+
+.listProject{
+    background: #12344d;
+    color: white;
+    padding: 6px 29px;
+    border-radius: 22px;
+    font-size: 10px;
+    box-shadow: 0 2px 4px #3574b152;
+}
+
+
+
+li.tableavtive.position-relative {
+    background:white
+  
+}
+
+
+li.tableavtive.position-relative i{
+   color: #12344d!important;
+  
+}
+
+
+.search-container {
+    position: relative;
+
+}
+
+.serachinputfill {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.serachinputfill:focus {
+    border-color: #00d0c0;
+}
+
+.dropdown {
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+
+.suggestion-item:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the "Add" button inside the dropdown */
+.add-item {
+    background-color: #00d0c0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.add-item:hover {
+    background-color: #00a199;
+}
+
+#previewForm h3 {
+    font-size: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* 
+ */
+
+/* Add margin to input settings */
+.input-settings {
+    margin-top: 20px;
+}
+
+.innerlisting{
+    display: none;
+}
+
+.listProject:hover ~ .innerlisting{
+    display: block;
+}
+
+.forbiew{
+    width: 90%;
+    margin-left: 70px;
+}
+
+
+
+/* Overlay to darken the background */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+}
+
+/* Styling for the pop-up */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    display: none;
+}
+
+/* Pop-up header */
+.popup h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Pop-up content */
+.popup p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Close button */
+.close-popup {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.close-popup:hover {
+    background-color: #0056b3;
+}
+
+/* Animation for pop-up */
+.popup-active .popup {
+    display: block;
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-active .overlay {
+    display: block;
+    opacity: 1;
+}
+
+/* Add subtle animations */
+.popup h2 {
+    animation: fadeInDown 0.5s ease;
+}
+
+.popup p {
+    animation: fadeInUp 0.5s ease;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.boxdrops{
+    display: none;
+}
+
+.boxtabsme{
+    display: none;
+}
+
+.activemetab{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*common table  */
+
+
+.table-container {
+    width: 2000px;
+    /* margin: 20px auto 20px 69px; */
+    border-collapse: collapse;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+    background-color: white;
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.table-container th {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.stickyone {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
+}
+
+.stickyone li {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+    font-size: 14px;
+}
+
+.stickyone li:first-child {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+/* .stickyone li:last-child {
+    border-bottom: none;
+} */
+
+.maintablediv {
+    margin: 20px auto 20px 0;
+    width: 100%;
+}
+
+.tablewrapper {
+    width: 1230px;
+}
+
+
+
+
+
+/* The dropdowndop content (hidden by default) */
+
+
+
+
+
+/* Hover effect */
+
+
+.infotooltip {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color: green;
+    display: none;
+    /* width: 40%; */
+    text-align: right;
+    padding-right: 20px;
+}
+
+.positionadjust{
+    width: 20px;
+    height: 20px;
+}
+
+
+.threedots:hover~.infotooltip{
+          display: block;
+
+}
+
+.infotooltip:hover{
+        display: block;
+}
+
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*  */
+
+.commonpro{
+    display: none;
+}
+
+.activeprofiles{
+    display: block!important;
+}
+
+
+/* chat */
+
+
+.chat-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    height: 400px;
+    overflow: auto;
+}
+.message {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.message-right {
+    justify-content: flex-end;
+}
+.message .text {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 250px;
+    position: relative;
+}
+.message-right .text {
+    background-color: #dcf8c6;
+}
+.message .time {
+    font-size: 10px;
+    margin-top: 5px;
+    color: #999;
+}
+.message .link {
+    color: #34b7f1;
+    text-decoration: none;
+}
+
+
+/* call */
+
+
+
+.tabletbl {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tabletbl th, .tabletbl td {
+    padding: 12px 16px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+.tabletbl th {
+    background-color: #f8f8f8;
+}
+
+.tabletbl tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.search-box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.search-box input {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dropdown {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Custom classes for status types */
+.outgoing {
+    color: blue;
+}
+
+.incoming {
+    color: green;
+}
+
+.cancelled {
+    color: red;
+}
+
+.pointercursor{
+    cursor: pointer;
+}
